@@ -4,15 +4,12 @@
     "description": "The American Parlimentary Debate Timer. Keeps track of time for you!",
     "version": "1.0",
     "manifest_version": 3,
-    "background": { "service_worker": "background.js"
-    },
-
-
     "permissions": ["alarms"],
     "action": {
         "browser_action" : {
 
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_title": "American Parlimentary Debate Timer"
         },
 
         "default_icon": {
