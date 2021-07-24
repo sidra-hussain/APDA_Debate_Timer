@@ -1,0 +1,29 @@
+
+{
+    "name": "American Parlimentary Debate Timer",
+    "description": "The American Parlimentary Debate Timer. Keeps track of time for you!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": { "service_worker": "background.js"
+    },
+
+
+    "permissions": ["alarms"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/APDA16.png",
+            "32": "/images/APDA32.png",
+            "48": "/images/APDA48.png",
+            "128": "/images/APDA128.png"
+        }
+    },
+
+    "icons": {
+        "16": "/images/APDA16.png",
+        "32": "/images/APDA32.png",
+        "48": "/images/APDA48.png",
+        "128": "/images/APDA128.png"
+
+    }
+}
