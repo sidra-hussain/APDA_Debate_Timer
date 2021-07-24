@@ -5,20 +5,12 @@
     "version": "1.0",
     "manifest_version": 3,
     "permissions": ["alarms"],
-    "action": {
-        "browser_action" : {
+   
+    "action" : {
 
         "default_popup": "popup.html",
         "default_title": "American Parlimentary Debate Timer"
         },
-
-        "default_icon": {
-            "16": "/images/APDA16.png",
-            "32": "/images/APDA32.png",
-            "48": "/images/APDA48.png",
-            "128": "/images/APDA128.png"
-        }
-    },
 
     "icons": {
         "16": "/images/APDA16.png",
@@ -26,6 +18,6 @@
         "48": "/images/APDA48.png",
         "128": "/images/APDA128.png"
 
-    },
+    }
 
 }
